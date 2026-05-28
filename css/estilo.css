@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000000;
+    color: #d6d6d6;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.divHeader {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 120px;
+}
+
+nav {
+    position: static;
+    font-size: 24px;
+    font-family: cursive;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 40px;
+    color: #b41a1a;
+}
+
+nav a {
+    color: rgb(180, 26, 26);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #256d13;
+}
+
+.banner {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+    display: block;
+}
+
+.titulos {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #236612;
+;
+}
+
+.sobre_nos {
+    width: 80%;
+    max-width: 1100px;
+    margin: 60px auto;
+    color: #b41a1a;
+    line-height: 1.7;
+    font-size: 18px;
+    font-style: initial ;
+}
+
+.img_sobre_nos {
+    width: 350px;
+    border-radius: 15px;
+    float: left;
+    margin-right: 35px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+.titulo_sobre_nos {
+    clear: left;
+}
+
+.mapa {
+    text-align: center;
+    padding: 60px 20px;
+    background: black
+    color: white;
+}
+
+.mapa h2 {
+    color: #236612;
+;
+}
+
+.mapa p {
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: #b41a1a;
+}
+
+.mapa iframe {
+    width: 80%;
+    max-width: 750px;
+    height: 380px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(3, 3, 3, 0.35);
+}
+
+.nossosprodutos {
+    padding: 70px 20px;
+    background: black
+    color: #b41a1a;
+}
+
+.titulo_h2_produtos {
+    color: #236612;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.div_nossosprodutos {
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.lista_nossosprodutos {
+    list-style: none;
+    font-size: 20px;
+    line-height: 2.2;
+}
+
+
+.img_nossosprodutos {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+    transition: 0.4s;
+}
+
+.img_nossosprodutos:hover {
+    transform: scale(1.05);
+}
+
+.video {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.video iframe {
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+}
+
+footer {
+    background: url(../img/rodape.png);
+    background-size: cover;
+    background-position: center;
+
+    background-color: hsla(0, 0%, 0%, 0.451);
+    background-blend-mode: darken;
+
+    height: 250px;
+
+    padding: 20px 40px;
+
+    position: relative;
+}
+
+footer p {
+    font-weight: bold;
+    color: white;
+    width: auto;
+    text-align: right;
+    font-size: 18px;
+
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+
+footer a {
+    color: white;
+}
+
+.logo_footer {
+    height: 170px;
+    width: auto;
+
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
